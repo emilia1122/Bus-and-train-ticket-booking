@@ -1,0 +1,950 @@
+html {
+  height: 100%;
+  position: relative;
+
+}
+
+header {
+  position: absolute;
+  min-width: 90%;
+  height: 70px;
+  left: 15px;
+  right: 15px;
+  top: 0;
+  background: #FFFFFF;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  position: absolute;
+  font-family: 'Karla', sans-serif;
+  width: 400px;
+  height: 35px;
+  left: 20px;
+  top: 17px;
+}
+
+.menu ul {
+  list-style: none;
+  margin-top: 10px;
+  padding: .2em 2em;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 0;
+  padding-left: 60px;
+  padding-right: 20px;
+  font-family: 'Karla', sans-serif;
+  font-size: 23px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.menu a {
+  min-width: 100%;
+  min-height: 100%;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-content: center;
+}
+
+.btn {
+  border-radius: 6px;
+  letter-spacing: .8;
+}
+
+label[for="toggle"] {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  color: #007bff;
+  z-index: 6;
+  font-size: 2rem;
+}
+
+.navigation--responsive {
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+.hamburger{
+  display: none;
+}
+#radio {
+  margin-left: 50px;
+}
+
+.form {
+  padding: 35px 0;
+  margin: 0 auto;
+}
+
+.middle-container {
+  position: absolute;
+  width: 98%;
+  min-height: 87%;
+  left: 15px;
+  right: 15px;
+  top: 85px;
+  margin-bottom: 10px;
+  border: 0.7px solid #C4C4C4;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FAFAFA;
+}
+
+.field {
+  display: inline-block;
+  position: relative;
+  margin: 10px auto;
+}
+
+.field input {
+  width: 320px;
+  margin-left: 50px;
+  top: 305px;
+  background: #FFFFFF;
+  border: 1.2px solid #C4C4C4;
+  padding: 20px;
+}
+
+.field label {
+  color: #999;
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 17%;
+  top: 10px;
+}
+
+.to-field>label {
+  left: 13%;
+}
+
+.col-resp {
+  margin-left: 35px;
+  width: 210px;
+}
+
+.col-resp-2 {
+  margin-left: 50px;
+  width: 210px;
+}
+
+.col-resp-3 {
+  margin-left: 45px;
+  margin-top: 20px;
+  height: 40px;
+  width: 90px;
+}
+
+#to {
+  margin-left: 35px;
+  padding-top: 30px;
+  height: 66px;
+  font-family: 'Karla', sans-serif;
+  font-size: 21px;
+  color: #63707e;
+
+
+
+}
+#from {
+    height: 66px;
+    font-family: 'Karla', sans-serif;
+    font-size: 21px;
+    color: #63707e;
+    padding-top: 30px;
+
+
+}
+
+.found-trains {
+  width: 88%;
+  height: 89px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  top: 454px;
+  background: #FFFFFF;
+  border: 0.7px solid #C4C4C4;
+  box-sizing: border-box;
+}
+
+
+h5 {
+  display: inline-block;
+
+}
+
+#train-no {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-family: 'Karla', sans-serif;
+  color: #0c2233;
+
+}
+
+#seat-no {
+  margin-left: 160px;
+  margin-top: 10px;
+  width: 30px;
+  font-family: 'Karla', sans-serif;
+  color: #0c2233;
+}
+
+#time-train {
+  margin-left: 240px;
+  width: 350px;
+  margin-top: 10px;
+  font-family: 'Karla', sans-serif;
+  color: #0c2233;
+}
+
+#price-train {
+  margin-left: 10px;
+  width: 90px;
+  font-family: 'Karla', sans-serif;
+  color: #0c2233;
+}
+
+.button-seat {
+  width: 120px;
+  margin-left: 60px;
+}
+
+.bottom-container {
+  width: 88%;
+  height: 400px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  top: 500px;
+  background: #FFFFFF;
+  border: 0.7px solid #C4C4C4;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+
+
+#Username, #Numseats {
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.left {
+  margin-left: 50px;
+  margin-top: 25px;
+  width: 300px;
+  height: 150px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 30px 0 0 30px;
+}
+
+.passengers-seat-select {
+  margin-left: 45px;
+
+}
+
+
+.final-check {
+  float: right;
+  width: 458px;
+  height: 320px;
+  top: 50px;
+  margin-right: 100px;
+  margin-top: 40px;
+  left: 10px;
+  background: #FFFFFF;
+  border: .5px solid #C4C4C4;
+  box-sizing: border-box;
+}
+
+.boarding-point {
+  width: 190px;
+  height: 78px;
+  left: 841px;
+  top: 921px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+}
+
+.dropping-point {
+  width: 190px;
+  height: 78px;
+  left: 1083px;
+  top: 891px;
+  background: #FFFFFF;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  float: right;
+}
+
+#boarding, #dropping {
+  font-family: 'Karla', sans-serif;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.total-price {
+  width: 425px;
+  height: 38px;
+  left: 891px;
+  top: 921px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background: #F8F8F8;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+}
+
+.total-price h6 {
+  padding-left: 11px;
+  padding-top: 5px;
+  font-family: 'Karla', sans-serif;
+}
+
+.finish-search {
+  width: 425px;
+  height: 45px;
+  left: 843px;
+  top: 950px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background:  #007bff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+table {
+  text-align: center;
+}
+
+.Displaytable {
+  text-align: center;
+  width: 425px;
+  height: 42px;
+  margin-left: 22px;
+  margin-top: 10px;
+}
+
+
+.Displaytable td, .Displaytable th {
+  border: .7px solid #ccc;
+  text-align: left;
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+  border: .5px solid #C4C4C4;
+
+}
+
+input[type=checkbox] {
+  width: 0;
+  margin-right: 10px;
+}
+
+input[type=checkbox] {
+  content: "";
+  width: 16px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#seatsDisplay {
+margin-left: 20px;
+width: 420px;
+height: 60px;
+margin-top: 0;
+border: .4px solid #c4c4c4;
+text-align: start;
+padding-top: 10px;
+padding-left: 13px;
+
+}
+
+input:focus {
+outline-style: none !important;
+outline: none !important;
+outline: 0 !important;
+border: .4px solid #c4c4c4;
+-moz-box-shadow:  0 1px 1px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow:  0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+#seatsDisplay:focus {
+outline-style: none !important;
+outline: none !important;
+outline: 0 !important;
+border: .4px solid #c4c4c4;
+-moz-box-shadow:  0 1px 1px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow:  0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+@media screen and (max-width: 979px) {
+  header {
+    width: 96.3%;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .middle-container {
+    width: 96.3%;
+
+  }
+
+  .main-navigation {
+    display: none;
+  }
+
+  svg.hamburger {
+    display: block;
+  }
+
+  .navigation--responsive {
+    display: block;
+    background: #fff;
+    width: 96.3%;
+    height: 10vh;
+    border: .6px solid #C4C4C4;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: -100vh;
+    right: 0;
+    left: 15px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    transition: top .5s;
+  }
+
+  .navigation--responsive ul {
+    list-style: none;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 25px;
+    padding: 0;
+  }
+
+  .navigation--responsive ul li {
+    margin-left: 29px;
+    margin-right: 26px;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .navigation--responsive li a {
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+  }
+
+
+  #radio {
+    margin-left: 50px;
+  }
+
+  .main-navigation {
+    display: none;
+  }
+
+  .col-resp {
+    margin-left: 65px;
+    width: 145px;
+  }
+
+  .col-resp-2 {
+    margin-left: 0;
+    width: 145px;
+  }
+
+  .col-resp-3 {
+    margin-left: 70px;
+    margin-top: 40px;
+    height: 40px;
+    width: 90px;
+  }
+
+  .field label {
+    left: 28%;
+  }
+
+  #to {
+    margin-left: 40px;
+  }
+
+  svg.hamburger {
+    display: block;
+  }
+
+  .field {
+    display: block;
+  }
+
+  .found-trains {
+    width: 94%;
+    height: 130px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    top: 454px;
+    background: #FFFFFF;
+    border: 0.7px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+  #train-no {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #seat-no {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #time-train {
+    width: 230px;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #price-train {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  .button-seat {
+    margin-left: 10px;
+  }
+
+  .bottom-container {
+    width: 60%;
+    height: 750px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    top: 500px;
+    background: #FFFFFF;
+    border: 0.7px solid #C4C4C4;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+  }
+
+  .left {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 350px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px 0 0 30px;
+  }
+
+
+  .Displaytable {
+    text-align: center;
+    width: 358px;
+    height: 42px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .Displaytable td, .Displaytable th {
+    border: .4px solid #ccc;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    padding-left: 11px;
+  }
+
+  #seatsDisplay {
+    border: none;
+    background: transparent;
+    width: 340px;
+    height: 42px;
+    padding: 0;
+  }
+
+  .final-check {
+    position: absolute;
+    width: 400px;
+    height: 315px;
+    left: 45px;
+    top: 900px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+  .boarding-point {
+    width: 170px;
+    height: 78px;
+    left: 841px;
+    top: 921px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+  .dropping-point {
+    width: 170px;
+    height: 78px;
+    left: 1083px;
+    margin-right: 20px;
+    top: 891px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    float: right;
+  }
+  .total-price {
+    width: 360px;
+    height: 38px;
+    left: 891px;
+    top: 921px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #F8F8F8;
+    border: .7px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+  .finish-search {
+    width: 360px;
+    height: 45px;
+    left: 843px;
+    top: 950px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background:  #007bff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .navigation--responsive li a {
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #toggle:checked~.navigation--responsive {
+    top: 0;
+  }
+
+}
+
+@media screen and (max-width: 568px) {
+  header {
+    width: 94%;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+
+  .middle-container {
+    width: 94%;
+    height: 140%;
+
+
+  }
+  #radio {
+    margin-left: 50px;
+  }
+
+  .main-navigation {
+    display: none;
+  }
+
+  .col-resp {
+    margin-left: 65px;
+    width: 145px;
+  }
+
+  .col-resp-2 {
+    margin-left: 30px;
+    width: 145px;
+  }
+
+  .col-resp-3 {
+    margin-left: 70px;
+    margin-top: 40px;
+    height: 40px;
+    width: 90px;
+  }
+
+  .field label {
+    left: 13%;
+  }
+
+  #to {
+    margin-left: 50px;
+  }
+
+  svg.hamburger {
+    display: block;
+  }
+
+  .field {
+    display: block;
+  }
+
+  .navigation--responsive {
+    display: block;
+    background: #fff;
+    width: 94%;
+    height: 10vh;
+    border: .6px solid #C4C4C4;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: -100vh;
+    right: 0;
+    left: 15px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    transition: top .5s;
+  }
+
+  .navigation--responsive ul {
+    list-style: none;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 15px;
+    margin-right: 6px;
+    padding: 0;
+  }
+
+  .navigation--responsive ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .navigation--responsive li a {
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+  }
+
+  h5 {
+    display: block;
+  }
+  .found-trains {
+    width: 88%;
+    height: 300px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    top: 454px;
+    background: #FFFFFF;
+    border: 0.7 solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+  #train-no {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #seat-no {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #time-train {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #price-train {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  .button-seat {
+    margin-left: 10px;
+  }
+
+  .bottom-container {
+    width: 88%;
+    height: 400px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    top: 500px;
+    background: #FFFFFF;
+    border: 0.7px solid #C4C4C4;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+  }
+
+  .left {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 350px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px 0 0 30px;
+  }
+
+  .passengers-seat-select {
+    margin-left: 20px;
+  }
+
+  #seatsBlock {
+    margin-left: 45px;
+    margin-right: 83px;
+  }
+
+  .Displaytable {
+    text-align: center;
+    width: 358px;
+    height: 42px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+
+  .Displaytable td, .Displaytable th {
+    border: .4px solid #ccc;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    padding-left: 15px;
+  }
+
+  #seatsDisplay {
+    border: none;
+    background: transparent;
+    width: 360px;
+    height: 42px;
+    margin-left: 20px;
+    padding-left: 13px;
+  }
+
+  .final-check {
+    clear: right;
+    width: 400px;
+    height: 315px;
+    left: 25px;
+    top: 550px;
+    margin-top: 5px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+  .boarding-point {
+    width: 170px;
+    height: 78px;
+    left: 841px;
+    top: 120vh;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+  .dropping-point {
+    width: 170px;
+    height: 78px;
+    left: 1083px;
+    margin-right: 20px;
+    top: 891px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    float: right;
+  }
+
+  #boarding, #dropping {
+    font-family: 'Karla', sans-serif;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+
+  .total-price {
+    width: 360px;
+    height: 38px;
+    left: 891px;
+    top: 921px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #F8F8F8;
+    border: .7 solid #C4C4C4;
+    box-sizing: border-box;
+  }
+
+
+
+  .finish-search {
+    width: 360px;
+    height: 45px;
+    left: 843px;
+    top: 950px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background:  #007bff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .navigation--responsive li a {
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+  }
+
+  #toggle:checked~.navigation--responsive {
+    top: 0;
+  }
+
+}
